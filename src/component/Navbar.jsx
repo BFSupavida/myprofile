@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
     return (
-      <>
-        <nav>
+      
+        <nav className="p-4 flex justify-end">
           <ul>
             <li>
               <a href={'/'}>Home</a>
@@ -20,7 +20,7 @@ const Navbar = () => {
             {/* <Toggle ></Toggle> */}
           </ul>
         </nav>
-      </>
+      
     );
   };
   
